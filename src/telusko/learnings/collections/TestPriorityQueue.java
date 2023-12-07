@@ -14,6 +14,7 @@ public class TestPriorityQueue {
         queue.add(14);
         queue.add(4);
         queue.add(9);
+        queue.add(14);
         queue.add(21);
         queue.add(6);
 

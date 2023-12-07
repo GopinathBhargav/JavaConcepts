@@ -24,7 +24,13 @@ public class TestTreeSet {
         System.out.println(t.lower(0)); // null
 
         System.out.println(" accessing collection values ");
+        TreeSet ts = new TreeSet();
+        ts.add(new StringBuffer("a"));
+        ts.add(new StringBuffer("A"));
+        ts.add(new StringBuffer("C"));
+        ts.add(new StringBuffer("c"));
 
+        System.out.println(" accessing collection values in string buffer " + ts);
 
         for( Object obj : t){
             System.out.println(obj);

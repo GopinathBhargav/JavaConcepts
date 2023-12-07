@@ -1,4 +1,4 @@
-package telusko.learnings;
+package telusko.learnings.innerClass;
 
 
 //Example 1 --- using abstract class
@@ -20,6 +20,7 @@ public class InterfaceAnonymousInnerClass {
 
     public static void main(String[] args) {
 
+
         InterfaceInnerClass anonymous = new InterfaceInnerClass() {
             @Override
             public void meth() {
@@ -34,6 +35,9 @@ public class InterfaceAnonymousInnerClass {
         anonymous.meth();
         anonymous.myMeth();
         anonymous.myMethInterface();
+
+
+
 
     }
 }

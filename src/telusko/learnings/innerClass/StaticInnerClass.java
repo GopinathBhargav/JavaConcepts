@@ -1,4 +1,4 @@
-package telusko.learnings;
+package telusko.learnings.innerClass;
 
 class StaticInnerClassDemo{
 

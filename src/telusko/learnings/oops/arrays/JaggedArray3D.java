@@ -1,4 +1,4 @@
-package telusko.learnings;
+package telusko.learnings.oops.arrays;
 
 public class JaggedArray3D {
 
@@ -7,13 +7,16 @@ public class JaggedArray3D {
         System.out.println(" Example 1 - JAGGED ARRAY");
         System.out.println();
         // jagged array example 1
-        int ar[][][]= new int[2][3][];
+        int ar[][][]= new int[3][3][];
         ar[0][0] = new int[3];
         ar[0][1] = new int[4];
         ar[0][2] = new int[5];
         ar[1][0] = new int[5];
         ar[1][1] = new int[2];
         ar[1][2] = new int[4];
+        ar[2][0] = new int[5];
+        ar[2][1] = new int[2];
+        ar[2][2] = new int[4];
 
         for(int i=0; i< ar.length; i++){
 

@@ -1,4 +1,4 @@
-package telusko.learnings;
+package telusko.learnings.innerClass;
 
 
 //Example 1 --- using normal class
@@ -21,6 +21,7 @@ class AnonymousInnerClassA{
 public class AnonymousInnerClass {
 
     public static void main(String[] args) {
+
 
        AnonymousInnerClassA anonymous = new AnonymousInnerClassA()
         {

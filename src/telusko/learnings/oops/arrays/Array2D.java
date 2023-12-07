@@ -1,4 +1,4 @@
-package telusko.learnings;
+package telusko.learnings.oops.arrays;
 
 public class Array2D {
 

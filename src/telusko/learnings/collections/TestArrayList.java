@@ -16,6 +16,13 @@ public class TestArrayList {
         list.addAll(l);
         System.out.println(list);
 
+
+        Iterator literator = l.iterator();
+
+       ListIterator li = l.listIterator();
+
+
+
         for(int i=0; i< l.size();i++){
 
             System.out.println( l.get(i));
