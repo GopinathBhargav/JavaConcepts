@@ -21,5 +21,14 @@ public class TestStreamsMinMax {
         String max = l.stream().max((i1,i2)-> i1.compareTo(i2)).get();
         System.out.println("max value in list is " + max); // VGBF
 
+        l.stream().forEach(System.out::println);
+
+        String [] s = l.stream().toArray(String[]::new);
+        System.out.println(s.length);
+
+        for(String ss: s){
+            System.out.println(ss);
+        }
+
     }
 }
