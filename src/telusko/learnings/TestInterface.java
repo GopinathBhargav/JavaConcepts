@@ -1,6 +1,8 @@
 package telusko.learnings;
 
 interface InterfaceOne{
+    
+    int interfaceVar = 10;
     void add();
     void sub();
     void mul();
@@ -35,6 +37,7 @@ public class TestInterface extends InterfaceClass{
 
     public static void main(String[] args) {
         InterfaceOne intone = new TestInterface();
+        System.out.println(interfaceVar);
         intone.add();
         intone.mul();
         intone.sub();
